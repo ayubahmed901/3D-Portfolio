@@ -6,7 +6,7 @@ import React from 'react';
 const App = () => {
   return (
     <main className="h-full bg-slate-300/20">
-      <Router>
+      <Router basename="/3D-portfolio/">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
